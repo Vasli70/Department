@@ -1,4 +1,4 @@
 FROM openjdk:8
 EXPOSE 8181
-ADD target/SB-Docker-int SB-Docker-int
-ENTRYPOINT ["java" , "-jar" , "/SB-Docker-int"]
+ADD target/sb-docker-int sb-docker-int
+ENTRYPOINT ["java" , "-jar" , "/sb-docker-int"]
